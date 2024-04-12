@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body-container">
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <br>
+        <div class="keys">
+            <button class="clearEntry-button" onclick="clearEntry()">CE</button>
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="appendElement('%')">%</button>
+            <button class="division-button" onclick="appendElement('/')">&#247;</button>
+            <button onclick="appendElement('7')">7</button>
+            <button onclick="appendElement('8')">8</button>
+            <button onclick="appendElement('9')">9</button>
+            <button class="right-buttons" onclick="appendElement('*')">x</button>
+            <button onclick="appendElement('4')">4</button>
+            <button onclick="appendElement('5')">5</button>
+            <button onclick="appendElement('6')">6</button>
+            <button class="right-buttons" onclick="appendElement('-')">-</button>
+            <button onclick="appendElement('1')">1</button>
+            <button onclick="appendElement('2')">2</button>
+            <button onclick="appendElement('3')">3</button>
+            <button class="right-buttons" onclick="appendElement('+')">+</button>
+            <button onclick="changeSign()">+/-</button>
+            <button onclick="appendElement('0')">0</button>
+            <button onclick="appendElement('.')">.</button>
+            <button class="right-buttons" onclick="calculateResult()">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

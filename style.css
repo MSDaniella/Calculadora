@@ -1,0 +1,78 @@
+.body-container {
+    background: linear-gradient(180deg, #807ECE 0%, #8E7ECE 100%);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0%;
+    height: 100vh;
+}
+
+.calculator {
+    padding: 54px 32px 32px 32px;
+    border-radius: 48px 48px 48px 48px;
+    background: rgba(45, 42, 55, 1);
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
+}
+
+#display {
+    width: 365px;
+    height: 90px;
+    background-color: transparent;
+    font-size: 25px;
+    color: #ffffff; 
+    display: flex;
+    text-align: right;
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 9px;
+}
+
+button {
+    padding: 30px;
+    font: 15pt Arial;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: #40445a;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+
+    
+}
+
+button:hover {
+    background-color: #6e72a0;
+}
+
+button:active {
+    background-color: #36384c;
+}
+
+
+.clearEntry-button{
+    color: rgb(115, 93, 151);
+    -webkit-text-stroke-width: 1.5px;
+
+}
+
+
+.right-buttons{
+    background-color: rgba(70, 40, 120, 1);
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.division-button{
+    background-color: rgba(70, 40, 120, 1);
+    font-size: 18pt;
+}
+
+
+
+
